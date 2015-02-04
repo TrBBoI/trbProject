@@ -6,17 +6,22 @@ I am still quite new to git. I hope I can make the best use of it to share and i
 
 #### About me
 I am Tan Zhe Xing from Singapore.
-I am a junior game programmer, graduated from Digipen Institute of Technology Singapore in 2014. 
-I worked on these few games during my course of studies there.
-1. Light-Vamp-Up (Sept 2011 - Dec 2011)
-1. DerrFex - (http://games.digipen.edu/games/derrfex#.VNI5QVSUc8o) (Jan 2012 - Apr 2012)
-2. DreamWalker (May 2012 - Dec 2012)
-3. Echoknight - (http://games.digipen.edu/games/echo-knights#.VNI6tFSUc8o) (Jan 2013 - Aug 2013)
-4. Untitled Space Battle (Sept 2013 - Apr 2014)
+I am a young game programmer, graduated from collage so long ago. I love games since young. My love on video games have inspired me to strive towards making games that are of equal, if not better, quality. I wish to give players unique and fun experience out of playing games. I hope that there will be one such game with my name in the credit. Until then, I will continue to work hard to improve my practical skills and technical knowledge.
 
-I am currently working at AxialBrain. (http://www.axialbrain.com/)
+I am a junior game programmer, graduated from Digipen Institute of Technology Singapore in 2014. 
+
+Projects I worked on during my studies:
+
+- Light-Vamp-Up (Sept 2011 - Dec 2011)
+- DerrFex - http://games.digipen.edu/games/derrfex#.VNI5QVSUc8o (Jan 2012 - Apr 2012)
+- DreamWalker (May 2012 - Dec 2012)
+- Echoknight - http://games.digipen.edu/games/echo-knights#.VNI6tFSUc8o (Jan 2013 - Aug 2013)
+- Untitled Space Battle (Sept 2013 - Apr 2014)
+
+I am currently working at AxialBrain and have been there since June 2014. http://www.axialbrain.com/ 
+
 Projects I worked on:
 - Monster Treasure
 - Chickee
 
-If you like the way I code and want me to help up in your project, feel free to ask me! 
+On the side note, if you like the way I code and want me to help up in your project, I will be more than happy to help! 
