@@ -13,9 +13,9 @@ I am a junior game programmer, graduated from Digipen Institute of Technology Si
 Projects I worked on during my studies:
 
 - Light-Vamp-Up (Sept 2011 - Dec 2011)
-- DerrFex - http://games.digipen.edu/games/derrfex#.VNI5QVSUc8o (Jan 2012 - Apr 2012)
+- DerrFex (Jan 2012 - Apr 2012)
 - DreamWalker (May 2012 - Dec 2012)
-- Echoknight - http://games.digipen.edu/games/echo-knights#.VNI6tFSUc8o (Jan 2013 - Aug 2013)
+- Echoknight (Jan 2013 - Aug 2013)
 - Untitled Space Battle (Sept 2013 - Apr 2014)
 
 I am currently working at AxialBrain and have been there since June 2014. http://www.axialbrain.com/ 
