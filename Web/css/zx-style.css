@@ -1,0 +1,423 @@
+
+/*******************************/
+/*           HEADER            */
+/*******************************/
+header {
+  padding: 0px 0px 20px;
+  width: 100%;
+}
+
+header nav {
+  margin: 0px;
+  padding: 5px;
+}
+
+header h1 {
+  padding-left:16.5px;
+}
+
+header a {
+  display: inline;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #8A5523;
+  text-decoration: none;
+}
+
+header a:active {
+  color: #8A5523;
+}
+
+.width-limit {
+  width: 800px;
+  height: auto;
+  display: normal;
+  text-align: left;
+
+  padding: 0px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+.brown
+{
+  height: 60px;
+  background-color: #8A5523;
+}
+
+.title {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: 10px auto 0px;
+  padding: 5px 0px 0.1px;
+  width: 800px;
+  text-align: left;
+  background-color: white;
+  box-shadow: 7.5px 7.5px 5px #888;
+}
+
+.title a {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+}
+
+.title a:hover {
+  color: black;
+}
+
+.sub-title {
+  float: left;
+
+  background-color: #8A5523;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 2.5px;
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+.nav-block {
+  float: left;
+  padding: 15px 5px 15px;
+}
+
+.sub-title-end {
+  height: 60px;
+  background-color: #8A5523;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  overflow: hidden;
+}
+
+.sub-title-end h2 {
+  margin: 0px;
+  color: #8A5523;
+}
+
+.header-end {
+  position: relative;
+  top: -20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  z-index: -1;
+  width: 800px;
+  height: 40px;
+  margin: 0px auto;
+  background-color: white;
+  box-shadow: 7.5px 7.5px 5px #888;
+}
+
+.shadow {
+  height: 60px;
+  box-shadow: 0px 7.5px 5px #888;
+}
+
+/*******************************/
+/*          LANDING            */
+/*******************************/
+.Landing {
+  text-align: center;
+  width: 500px;
+  
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 7.5px 7.5px 5px #888;
+}
+
+.Landing h6 {
+  margin: 5px;
+}
+
+/*******************************/
+/*           GALLERY           */
+/*******************************/
+
+.project-gallery {
+
+}
+
+.gallery {
+  /* margin: 11px; */
+}
+
+.gallery img {
+  display: inline;
+  margin: 10px 12.5px;
+  width: 215px; /* 750  */
+  vertical-align: middle;
+  border-radius: 15px;
+}
+
+.gallery h4 {
+  padding-left: 12px;
+}
+
+.gallery caption {
+  border-radius: 15px;
+  background-color: black;
+}
+
+.gallery figcaption a {
+  font-size: 1em;
+}
+
+/*******************************/
+/*          ABOUT ME           */
+/*******************************/
+
+.AboutMe p {
+  margin: 0px 2px 14px;
+}
+
+.AboutMe a {
+  text-decoration: none;
+  color: #8B2324;
+  font-weight: bold;
+  font-size: 0.95em;
+  
+  padding: 0px 5px;
+}
+
+.AboutMe a:hover {
+  color: #8A5523;
+}
+
+.AboutMe p b {
+  font-size: 0.95em;
+}
+
+.AboutMe ul {
+  padding-left: 30px;
+}
+
+.resumelink {
+  margin: 15px;
+  float: right;
+  width: 100px;
+}
+
+.resumelink img {
+  width: 100%;
+}
+
+.column_div {
+  margin-bottom: 20px;
+  
+  -moz-column-count: 3; /* Firefox */
+  -webkit-column-count: 3; /* Safari and Chrome */
+  column-count: 3;
+  
+  -moz-column-gap: 0px; /* Firefox */
+  -webkit-column-gap: 0px; /* Safari and Chrome */
+  column-gap: 0px;
+}
+
+.column_div-5 {
+  margin-bottom: 20px;
+  
+  -moz-column-count: 5; /* Firefox */
+  -webkit-column-count: 5; /* Safari and Chrome */
+  column-count: 5;
+  
+  -moz-column-gap: 0px; /* Firefox */
+  -webkit-column-gap: 0px; /* Safari and Chrome */
+  column-gap: 0px;
+}
+
+.column_div p {
+  margin: 0px 0px 5px;
+  padding: 0px;
+}
+
+/*******************************/
+/*          PROJECTS           */
+/*******************************/
+.screenshots {
+  float: right;
+  width: 50%;
+  padding: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.project h4 {
+  padding-left: 12px;
+}
+
+.project h5 {
+  padding-left: 12px;
+}
+
+.project ul {
+  padding-left: 30px;
+}
+
+/*******************************/
+/*        CONTACT ME           */
+/*******************************/
+
+
+/*******************************/
+/*           FOOTER            */
+/*******************************/
+footer {
+  font-size: 0.75em;
+  padding: 5px;
+  margin: 0px auto;
+  width: 800px;
+}
+
+footer p {
+  margin: 0px;
+}
+
+/*******************************/
+/*           GENERAL           */
+/*******************************/
+html {
+  margin:auto;
+}
+
+body {
+  vertical-align: middle;
+  margin:0px auto;
+
+  padding: 0px;
+
+  border-color: #000;
+  
+  background-color: #CCC;
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+section {
+  padding: 5px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 4.0em;
+  font-weight: normal;
+  font-style: normal;
+
+  color: #000;
+  text-decoration: none;
+  
+  margin: 5px 0px;
+}
+
+h2 {
+  margin: 5px auto;
+
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.25em; 
+
+  text-decoration: none;
+
+  color: white;
+
+  background-color: #8A5523;
+}
+
+h3 {
+  margin: 5px auto;
+
+  font-size: 1.88em;
+  font-weight: normal;
+
+  text-decoration: none;
+
+  color: white;
+
+  background-color: #000;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin: 4px auto 4px;
+  /* color: #8A5523; */
+}
+
+h5 {
+  font-size: 1.10em;
+  margin: 0px auto 2px;
+}
+
+h6 {
+  font-size: 1.0em;
+  margin: 0px 0px 5px;
+}
+
+a {
+  font-size: 1.25em;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #8A5523;
+}
+
+p {
+  font-size: 1.0em; 
+
+  text-decoration: none;
+
+  color: #333;
+  margin: 5px 10px 14px;
+}
+
+ul {
+  margin: 0px auto 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+div.content-body {
+  margin: 0px auto;
+  width:800px;
+}
+
+.section-title {
+  position: relative;
+  display: inline-block;
+  background-color: #000;
+  border-radius: 35px;
+  margin: 0px;
+  padding: 1px 22px;
+  z-index: 10;
+}
+
+.section-body {
+  position: relative;
+  top: -25px;
+  margin-bottom: -25px;
+  padding: 25px 20px 20px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 7.5px 7.5px 5px #888;
+  /* z-index: 0; */
+}
+
+.divider {
+  margin: 7px 0px;
+  height: 7px;
+  background-color: #333;
+}
