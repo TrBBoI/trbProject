@@ -1,3 +1,4 @@
-Web/web.sublime-project
-Web/web.subline-workspace
+# sublime project files
+*.sublime-project
+*.sublime-workspace
 
