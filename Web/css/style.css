@@ -1,7 +1,29 @@
-body {
+html {
 	margin: 10px auto 20px;
+	background-color: #8A5523;
+	font-family: Tahoma, Geneva, sans-serif;
+
 	width: 800px;
 }
+
+body {
+	margin: 0px;
+	background-color: #EEE;
+	box-shadow: 10px 10px 5px #333;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
 
 .main-body {
 }
