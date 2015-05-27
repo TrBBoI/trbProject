@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:keepScreenOn="true" >
+
+    <ToggleButton
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/start"
+        android:textOff="@string/start"
+        android:textOn="@string/stop"
+        android:onClick="OnClickStart" />
+
+    <Button
+        android:id="@+id/btnTapTempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnStart"
+        android:text="@string/taptempo"
+        android:onClick="OnClickTapTempo" />
+    
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnTapTempo"
+        android:text="@string/plus"
+        android:onClick="OnClickPlusTempo" />
+    
+    <Button
+        android:id="@+id/btnMinus"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnPlus"
+        android:text="@string/minus"
+        android:onClick="OnClickMinusTempo" />
+    
+
+    <TextView
+        android:id="@+id/textTempoValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnStart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textTempoLabel"
+        android:text="@string/tempovalue"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textTempoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textTempoValue"
+        android:layout_alignParentLeft="true"
+        android:text="@string/tempolabel"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <SeekBar
+        android:id="@+id/seekBarTempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnStart"
+        android:layout_alignRight="@+id/btnStart"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/textTempoLabel" />
+
+    <TextView
+        android:id="@+id/textTimeSignLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textTempoLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/timesignlabel"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinnerBeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textTimeSignLabel1"
+        android:layout_alignBottom="@+id/textTimeSignLabel1" />
+
+    <TextView
+        android:id="@+id/textTimeSignLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/spinnerBeat"
+        android:layout_alignBottom="@+id/textTimeSignLabel1"
+        android:text="@string/slash"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinnerBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textTimeSignLabel2"
+        android:layout_alignBottom="@+id/textTimeSignLabel1" />
+
+    <TextView
+        android:id="@+id/textIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/spinnerBar"
+        android:layout_alignBottom="@+id/textTimeSignLabel1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/in"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinnerSubdivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textIn"
+        android:layout_alignTop="@+id/separator1"
+        android:layout_above="@+id/textTempoLabel" >
+
+    </Spinner>
+
+	<View
+        android:id="@+id/separator1"
+  		android:layout_width="fill_parent"
+ 	    android:layout_height="1dp"
+ 	    android:layout_above="@+id/textTimeSignLabel1"
+ 	    android:layout_marginTop="16dp"
+ 	    android:layout_marginBottom="16dp"
+    	android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textVolumeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/separator1"
+        android:layout_alignParentLeft="true"
+        android:text="@string/volumelabel"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <SeekBar
+        android:id="@+id/seekBarVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/separator1"
+        android:layout_alignRight="@+id/btnStart"
+        android:layout_toRightOf="@+id/textVolumeLabel"
+        android:layout_marginLeft="16dp" />
+
+	<View
+        android:id="@+id/separator2"
+  		android:layout_width="fill_parent"
+ 	    android:layout_height="1dp"
+ 	    android:layout_above="@+id/textVolumeLabel"
+ 	    android:layout_marginTop="16dp"
+ 	    android:layout_marginBottom="16dp"
+    	android:background="@android:color/darker_gray" />
+    
+    <Button
+        android:id="@+id/btnAddBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/separator2"
+        android:layout_toLeftOf="@+id/btnRemoveBar"
+        android:text="@string/add"
+        android:onClick="OnClickAddBar" />
+
+    <Button
+        android:id="@+id/btnRemoveBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/separator2"
+        android:layout_alignParentRight="true"
+        android:text="@string/remove"
+        android:onClick="OnClickRemoveBar" />
+
+    <LinearLayout 
+        android:id="@+id/viewInvis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/separator2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btnAddBar"
+        android:layout_toLeftOf="@+id/btnAddBar"
+        android:orientation="horizontal" >
+
+        <ToggleButton
+            android:id="@+id/tbtnSave1"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textOn="@string/n1"
+	        android:textOff="@string/n1"
+	        android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/tbtnSave2"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textOn="@string/n2"
+	        android:textOff="@string/n2"/>
+        <ToggleButton
+            android:id="@+id/tbtnSave3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textOn="@string/n3"
+	        android:textOff="@string/n3"/>
+        <ToggleButton
+            android:id="@+id/tbtnSave4"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:textOn="@string/n4"
+	        android:textOff="@string/n4"/>
+
+     </LinearLayout >
+
+</RelativeLayout>

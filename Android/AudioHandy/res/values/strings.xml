@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">AudioHandy</string>
+    <string name="taptempo">Tap Tempo</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="tempolabel">Tempo</string>
+    <string name="tempovalue">320</string>
+    <string name="timesignlabel">Time Signature</string>
+    <string name="in">in</string>
+    <string name="volumelabel">Volume</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="slash">/</string>
+    <string name="n1">1</string>
+    <string name="n2">2</string>
+    <string name="n3">3</string>
+    <string name="n4">4</string>
+</resources>
