@@ -18,7 +18,7 @@ Projects I worked on during my studies:
 - Echoknight (Jan 2013 - Aug 2013)
 - Untitled Space Battle (Sept 2013 - Apr 2014)
 
-I am currently working at AxialBrain and have been there since June 2014. http://www.axialbrain.com/ 
+I worked for AxialBrain from June 2014 to March 2016.  
 
 Projects I worked on:
 - Monster Treasure
